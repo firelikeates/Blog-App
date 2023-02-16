@@ -1,0 +1,72 @@
+.container-homepage{
+    width: 100%;
+    min-width: 1300px;;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+}
+.home-section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:calc(100vh - 65px);
+    margin-top:-560px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/what-is-a-full-stack-web-developer-guide.jpg");
+    mask-image: linear-gradient(to bottom, rgb(0,0,0,1),rgba(0,0,0,0.65));
+    
+}
+.info-box-home{
+    margin-top: 100px;
+    width: 50%;
+    height: 140px;
+    text-align: center;
+    border: 2px solid rgb(26, 25, 25);
+    box-shadow: 5px 2px 8px 7px rgb(36, 34, 34);
+    background-color:rgba(0,0,0,0.60) ;
+}
+.info-box-home h4{
+    font-size: 37px;
+    color: rgb(176, 5, 219);
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    z-index: 2;
+}
+.info-box-home p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffe5ff;
+}
+.links-home-page{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    user-select: none;
+    appearance: none;
+    margin-bottom: 90px;
+}
+.links-home-page a{
+    display: block;
+    width: 160px;
+    height: 160px;
+    background-color: rgba(37, 37, 37, 0.65);
+    text-align: center;
+    padding-top: 60px;
+    box-shadow: 4px 5px 6px 6px rgb(19, 18, 18);
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffe5ff;
+    text-decoration: none;
+}
+.links-home-page a:hover{
+    background-color: rgba(173, 0, 216,0.735);
+}
